@@ -1,0 +1,141 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+.bar{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    height: 10vh;
+    color:white
+}
+button{
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+button:hover{
+    cursor:pointer;
+    background-color:rgba(0,0,0,0.1);
+    color:white;
+    border:none;
+}
+  
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 30px;
+}
+h1, h2, p {
+    text-align: center;
+}
+  
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    width:40vw;
+    height: 70vh;
+    border-radius: 10%; 
+    box-shadow: 20px 20px 20px 20px black; 
+    
+}
+input[type="submit"]{
+    background-color: antiquewhite;
+    margin-left:55px    ;
+    width:120px;
+    border-radius: 10px;
+}
+input[type="submit"]:hover{
+    cursor:pointer;
+    background-color:rgba(0,0,0,0.1);
+    color:white;
+    border:none;
+
+}
+#agregar{
+    padding-top:auto;
+}
+section {
+    width: 100%;
+    margin: 10px auto 10px auto;
+    max-width: 600px;
+ 
+}
+#form-agregar div{
+    margin-bottom: 10px;
+}
+#form-container div{
+    margin-bottom: 10px;
+}
+.input-text{
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 5px;
+}
+.input-text:hover{
+    cursor:pointer;
+    background-color: rgba(0,0,0,0.1);
+    
+}
+.inputs label, .inputs input {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.inputs input {
+  width: 50%;
+  text-align: left;
+}
+
+.inputs label {
+    width: 10%;
+    min-width: 55px;
+    text-align: right;
+}
+  
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+h1, h2 {
+    font-family: Impact, serif;
+}
+
+.Div-buscar{
+
+    margin-top: 20px;
+    display: flex;
+    
+}
+.container-table{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin:0;
+    width: 100%;
+    background:linear-gradient(rgb(96, 1, 1),bisque);
+}
+table{
+    text-align: left;
+    width: 100%;
+}
+thead{
+    background-color:brown; 
+    border-bottom: solid 5px brown;
+}
